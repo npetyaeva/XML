@@ -32,7 +32,7 @@
     ```
 28. Отправить изменения на внешний репозиторий.
 
-       `git commit -am "Modified new.json"`
+       `git commit -am "Modified new.xml"`
        
        `git push`
 29. Создать файл preferences.xml
@@ -71,7 +71,7 @@
 
 32. Сделать коммит в одну строку.
 
-       `git commit -am "Added preferences.json & sklls.json"`
+       `git commit -am "Added preferences.xml & sklls.xml"`
 
 33. Отправить сразу 2 файла на внешний репозиторий.
 
