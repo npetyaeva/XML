@@ -5,7 +5,9 @@
     `https://github.com/npetyaeva/XML.git`
 22. Клонировать репозиторий XML на локальный компьютер.
 
-    `git clone https://github.com/npetyaeva/XML.git` `cd XML`
+    `git clone https://github.com/npetyaeva/XML.git`
+    
+    `cd XML`
 23. Внутри локального XML создать файл “new.xml”.
 
     `touch new.xml`
@@ -50,7 +52,9 @@
 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 
     `touch sklls.xml`
-    `git add skills.xml`    
+    
+    `git add skills.xml`  
+    
     `vim sklls.xml`
     ```
     <?xml version="1.0" encoding="UTF-8"?>
@@ -65,13 +69,13 @@
 
 32. Сделать коммит в одну строку.
 
-        `git commit -am "Added preferences.json & sklls.json"`
+       `git commit -am "Added preferences.json & sklls.json"`
 
 33. Отправить сразу 2 файла на внешний репозиторий.
 
-        `git push`
+    `git push`
 34. На веб интерфейсе создать файл bug_report.xml.
-    1. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
        `https://github.com/npetyaeva/XML/blob/main/bug_report.xml`
 35. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
@@ -99,41 +103,5 @@
     ```
 36. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 37. Синхронизировать внешний и локальный репозиторий XML
-
-    `git pull`
-
-
-
-
-
-
-
-        ```
-        {
-          "ID": "BR000",
-          "Summary": "Заголовок",
-          "Description": [
-                          "1. ...",
-                          "2. ..."
-                          ],
-          "Actual result": "Фактический результат",
-          "Еxpected result": "Ожидаемый результат",
-          "Enviroment":
-          {
-                  "OS": "ОС",
-                  "Browser": "Браузер"
-          },
-          "Severity": "Серьезность",
-          "Priority": "Приоритет",
-          "Author": "Автор",
-          "Sign to": "Назначено на",
-          "Attachments": "Вложения"
-        }
-        ```
-54. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-
-       `https://github.com/npetyaeva/JSON/blob/main/bug_report.json`
-   
-55. Синхронизировать внешний и локальный репозиторий JSON
 
     `git pull`
