@@ -33,10 +33,12 @@
 28. Отправить изменения на внешний репозиторий.
 
        `git commit -am "Modified new.json"`
+       
        `git push`
 29. Создать файл preferences.xml
 
     `touch preferences.xml`
+    
     `git add preferences.xml`
 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
     ```
