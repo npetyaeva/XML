@@ -1,1 +1,20 @@
 
+<BUG_REPORT>
+  <ID>BR000</ID>
+  <SUMMARY>Заголовок</SUMMARY>
+  <DESCRIPTION>
+    <STEP>1. ...</STEP>
+    <STEP>2. ...</STEP>
+  </DESCRIPTION>
+  <ACTUAL>Фактический результат</ACTUAL>
+  <EXPECTED>Ожидаемый результат</EXPECTED>
+  <ENVIROMENT>
+    <VALUE>ОС</VALUE>
+    <VALUE>Браузер</VALUE>
+  </ENVIROMENT>
+  <SEVERITY>Серьезность</SEVERITY>
+  <PRIORITY>Приоритет</PRIORITY>
+  <AUTHOR>Автор</AUTHOR>
+  <ASSIGN>Назначено на</ASSIGN>
+  <ATTACHMENTS>Вложения</ATTACHMENTS>
+</BUG_REPORT>
