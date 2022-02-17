@@ -95,8 +95,8 @@
       <EXPECTED>Product images are displayed on the Product page</EXPECTED>  
       <ACTUAL>All product images are missing</ACTUAL>
       <STEPS>
-          <STEP1>Open <a href="www.storeName.com">www.storeName.com</a></STEP1>
-          <STEP2>Find and select a product on the Main page and make sure that the Product page has loaded</STEP2>
+        <STEP1>Open <a href="www.storeName.com">www.storeName.com</a></STEP1>
+        <STEP2>Find and select a product on the Main page and make sure that the Product page has loaded</STEP2>
       </STEPS>
       <ENVIROMENT>
         <OS>Windows 10</OS>
